@@ -8,14 +8,19 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "react": "16.3.1",
-    "react-native": "0.55.3"
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-native": "0.55.3",
+    "react-relay": "^1.6.0"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",
+    "babel-plugin-relay": "^1.6.0",
     "babel-preset-react-native": "4.0.0",
+    "graphql": "^14.0.0-rc.2",
     "jest": "22.4.3",
-    "react-test-renderer": "16.3.1"
+    "react-test-renderer": "16.3.1",
+    "relay-compiler": "^1.6.0"
   },
   "jest": {
     "preset": "react-native"
